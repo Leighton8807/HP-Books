@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "La Piedra Filosofal",
+    "price": 10,
+    "imgUrl": "../public/images/piedra_filosofal.png"
+  },
+  {
+    "id": 2,
+    "name": "La Camara de los Secretos",
+    "price": 800,
+    "imgUrl": "../images/camara_de_los_secretos.png"
+  },
+  {
+    "id": 3,
+    "name": "El Prisionero de Askaban",
+    "price": 400,
+    "imgUrl": "../images/el_prisionero_de_azkaban.png"
+  },
+  {
+    "id": 4,
+    "name": "El Caliz de Fuego",
+    "price": 550,
+    "imgUrl": "../images/el_caliz_de_fuego.png"
+  },
+  {
+    "id": 5,
+    "name": "La Orden del Fenix",
+    "price": 650,
+    "imgUrl": "../images/la_orden_del_fenix.png"
+  },
+  {
+    "id": 6,
+    "name": "El Misterio del Principe",
+    "price": 350,
+    "imgUrl": "../images/el_misterio_del_principe.png"
+  },
+  {
+    "id": 7,
+    "name": "Las Reliquias de la Muerte",
+    "price": 1550,
+    "imgUrl": "../images/las_reliquias-de-la-muerte.png"
+  }
+]
