@@ -1,6 +1,7 @@
 import React from "react";
-import storeItems from "../data/products.json";
-import { Item } from "./Item";
+import storeItems from "../../data/products.json";
+import { Item } from "../Item/Item";
+import './ItemList.css'
 
 export const ItemList = () => {
   return (

@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/******** Items List ******/
+.items-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 8vh;
+    margin-top: 8vh;
+}
