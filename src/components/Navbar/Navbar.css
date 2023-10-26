@@ -3,6 +3,7 @@
     margin: 0;
 }
 nav {
+  height: 15vh;
     display: flex;
     background-color: red;
     justify-content: space-between;
@@ -16,14 +17,15 @@ nav {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    text-decoration: none;
   }
-    .LogoTitulo .logo{
+  .LogoTitulo .logo{
     width: 40%;
     height: 15vh;
     border-radius: 100%;
     display: flex;
     justify-content: end;
-
+    
   }
   .LogoTitulo .logo img{
     width: 70%;
@@ -31,14 +33,15 @@ nav {
   }
   .LogoTitulo .titulo{
     width: 50%;
-    color: black;
+    color: #090020;
     font-family: 'Irish Grover';
+    
   }
   hr{
     width: 0.3%;
     height: 55%;
-    background-color: black;
-    border: black solid 0.1px;
+    background-color: #090020;
+    border: #090020 solid 1px;
     border-radius: 30%;
   }
   .nav-list{

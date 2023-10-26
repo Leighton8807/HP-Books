@@ -16,7 +16,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <div className="LogoTitulo">
+      <Link to="/" className="LogoTitulo">
         <div className="logo">
           <img className="imagenLogo" src="/public/images/LogoHarryPotter.jpg" alt="HarryPotter-Logo"/>
         </div>
@@ -26,7 +26,7 @@ export const Navbar = () => {
         </div>
             
             
-      </div>
+      </Link>
       <ul className="nav-list">
         <Link to={"/cart"} style={navStyles}>
           <li>

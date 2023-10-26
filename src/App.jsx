@@ -8,6 +8,7 @@ import { ShoppingCartProvider } from "./contexts/ShoppingCartContext";
 import { Footer } from "./components/Footer/Footer";
 
 export const App = () => {
+
   return (
     <ShoppingCartProvider>
       <Router>

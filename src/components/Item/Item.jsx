@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import './Item.css'
 import { CartContext } from "../../contexts/ShoppingCartContext";
 
-export const Item = ({ name, price, id, imgUrl }) => {
+export const Item = ({ title:name, price, idBook:id, imageBook:imgUrl }) => {
   const [cart, setCart] = useContext(CartContext);
 
   const addToCart = () => {
@@ -11,7 +11,7 @@ export const Item = ({ name, price, id, imgUrl }) => {
       if (isItemsFound) {
         return currItems.map((item) => {
           if (item.id === id) {
-            return { ...item, quantity: item.quantity + 1 };
+            return {...item, quantity: item.quantity + 1 };
           } else {
             return item;
           }
